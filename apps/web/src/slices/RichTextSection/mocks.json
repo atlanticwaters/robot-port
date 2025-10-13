@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "rich_text_section",
+    "items": [],
+    "primary": {
+      "title": "Levelling up the product experience",
+      "align": "start",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We partnered with the Guilded design and engineering teams to map the member lifecycle, identify opportunity areas, and craft a unified service blueprint.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "This included high-impact experiments, a design system refresh, and shipping new monetization mechanics in under ten weeks.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

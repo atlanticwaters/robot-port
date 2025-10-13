@@ -1,0 +1,23 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "link_group",
+    "items": [
+      {
+        "label": "Read the full case study",
+        "link": { "link_type": "Web", "url": "/case-study/guilded" },
+        "icon": "arrow"
+      },
+      {
+        "label": "Explore live product",
+        "link": { "link_type": "Web", "url": "https://guilded.com" },
+        "icon": "external"
+      }
+    ],
+    "primary": {
+      "heading": "Related links",
+      "description": "Additional resources and artifacts."
+    }
+  }
+]

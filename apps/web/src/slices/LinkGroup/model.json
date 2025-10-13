@@ -1,0 +1,58 @@
+{
+  "id": "link_group",
+  "type": "SharedSlice",
+  "name": "LinkGroup",
+  "description": "A list of links with optional icons.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "List of links",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        }
+      },
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label"
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "allowTargetBlank": true
+          }
+        },
+        "icon": {
+          "type": "Select",
+          "config": {
+            "label": "Icon",
+            "options": [
+              "arrow",
+              "external",
+              "github",
+              "linkedin",
+              "figma",
+              "dribbble"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

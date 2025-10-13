@@ -1,0 +1,44 @@
+{
+  "id": "image_grid",
+  "type": "SharedSlice",
+  "name": "ImageGrid",
+  "description": "Responsive image grid for moodboards or artifacts.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Image grid",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption"
+          }
+        }
+      }
+    }
+  ]
+}

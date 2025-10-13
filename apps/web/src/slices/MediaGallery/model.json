@@ -1,0 +1,48 @@
+{
+  "id": "media_gallery",
+  "type": "SharedSlice",
+  "name": "MediaGallery",
+  "description": "Responsive gallery for imagery or video frames.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Grid gallery with caption support.",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        }
+      },
+      "items": {
+        "media": {
+          "type": "Image",
+          "config": {
+            "label": "Media",
+            "constraint": {
+              "width": 2200,
+              "height": 1466
+            },
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption"
+          }
+        }
+      }
+    }
+  ]
+}

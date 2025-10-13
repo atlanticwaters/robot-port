@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "callout",
+    "items": [],
+    "primary": {
+      "label": "Engagements",
+      "heading": "Fractional product leadership grounded in craft",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "I join teams as a high-leverage partner across strategy, design, and engineering to ship outcomes quickly without sacrificing fidelity.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

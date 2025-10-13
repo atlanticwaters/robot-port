@@ -1,0 +1,44 @@
+{
+  "id": "cta_banner",
+  "type": "SharedSlice",
+  "name": "CTABanner",
+  "description": "High-impact CTA banner with single action.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "CTA banner",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "description": {
+          "type": "RichText",
+          "config": {
+            "label": "Description",
+            "multi": "paragraph, strong, em, hyperlink"
+          }
+        },
+        "action_label": {
+          "type": "Text",
+          "config": {
+            "label": "Action Label"
+          }
+        },
+        "action_link": {
+          "type": "Link",
+          "config": {
+            "label": "Action Link",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "quote",
+  "type": "SharedSlice",
+  "name": "Quote",
+  "description": "Testimonial or pull-quote module.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Centered quote with attribution.",
+      "primary": {
+        "quote": {
+          "type": "RichText",
+          "config": {
+            "label": "Quote",
+            "multi": "paragraph, strong, em"
+          }
+        },
+        "attribution": {
+          "type": "Text",
+          "config": {
+            "label": "Attribution"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Role or Title"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

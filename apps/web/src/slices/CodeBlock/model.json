@@ -1,0 +1,51 @@
+{
+  "id": "code_block",
+  "type": "SharedSlice",
+  "name": "CodeBlock",
+  "description": "Syntax highlighted code block with caption.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Code sample",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "language": {
+          "type": "Select",
+          "config": {
+            "label": "Language",
+            "options": [
+              "typescript",
+              "javascript",
+              "json",
+              "css",
+              "shell"
+            ],
+            "default_value": "typescript"
+          }
+        },
+        "code": {
+          "type": "RichText",
+          "config": {
+            "label": "Code",
+            "multi": "preformatted"
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

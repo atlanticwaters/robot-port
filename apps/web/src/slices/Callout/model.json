@@ -1,0 +1,37 @@
+{
+  "id": "callout",
+  "type": "SharedSlice",
+  "name": "Callout",
+  "description": "High-emphasis content block for key messaging.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Callout",
+      "primary": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label"
+          }
+        },
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "body": {
+          "type": "RichText",
+          "config": {
+            "label": "Body",
+            "multi": "paragraph, strong, em, hyperlink"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

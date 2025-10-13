@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "quote",
+    "items": [],
+    "primary": {
+      "quote": [
+        {
+          "type": "paragraph",
+          "text": "Alex was instrumental in helping our team rethink the entire member journey. We shipped more in twelve weeks than we had in the previous year.",
+          "spans": []
+        }
+      ],
+      "attribution": "Leslie Fox, VP Product",
+      "title": "Guilded"
+    }
+  }
+]

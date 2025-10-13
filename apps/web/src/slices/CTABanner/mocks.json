@@ -1,0 +1,23 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "cta_banner",
+    "items": [],
+    "primary": {
+      "heading": "Let’s design the next chapter",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Share your brief and we’ll shape a collaboration plan that meets your velocity and craft needs.",
+          "spans": []
+        }
+      ],
+      "action_label": "Start a project",
+      "action_link": {
+        "link_type": "Web",
+        "url": "/contact"
+      }
+    }
+  }
+]

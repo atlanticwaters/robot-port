@@ -1,0 +1,31 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "media_gallery",
+    "items": [
+      {
+        "media": {
+          "dimensions": { "width": 1600, "height": 1024 },
+          "alt": "Product dashboard",
+          "copyright": null,
+          "url": "https://images.prismic.io/robot-port/placeholder-dashboard.jpg"
+        },
+        "caption": "Overview dashboard across desktop and mobile"
+      },
+      {
+        "media": {
+          "dimensions": { "width": 1600, "height": 1024 },
+          "alt": "Interaction flow",
+          "copyright": null,
+          "url": "https://images.prismic.io/robot-port/placeholder-flow.jpg"
+        },
+        "caption": "Motion design study for onboarding"
+      }
+    ],
+    "primary": {
+      "heading": "Visual narrative",
+      "description": "System photography and UI compositions showcasing the engagement."
+    }
+  }
+]

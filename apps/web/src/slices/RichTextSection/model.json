@@ -1,0 +1,41 @@
+{
+  "id": "rich_text_section",
+  "type": "SharedSlice",
+  "name": "RichTextSection",
+  "description": "Long-form narrative or supporting prose.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Rich text block with optional title and alignment.",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": "A focused narrative title"
+          }
+        },
+        "align": {
+          "type": "Select",
+          "config": {
+            "label": "Alignment",
+            "options": ["start", "center", "end"],
+            "default_value": "start"
+          }
+        },
+        "content": {
+          "type": "RichText",
+          "config": {
+            "label": "Content",
+            "multi": "paragraph, strong, em, hyperlink, list-item, o-list-item, preformatted, heading2, heading3, heading4",
+            "allowTargetBlank": true
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

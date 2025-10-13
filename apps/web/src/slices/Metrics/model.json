@@ -1,0 +1,49 @@
+{
+  "id": "metrics",
+  "type": "SharedSlice",
+  "name": "Metrics",
+  "description": "Quantitative highlights with supporting context.",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "https://prismic.io",
+      "version": "1.0.0",
+      "description": "Metric grid",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption"
+          }
+        }
+      },
+      "items": {
+        "label": {
+          "type": "Text",
+          "config": {
+            "label": "Label"
+          }
+        },
+        "value": {
+          "type": "Text",
+          "config": {
+            "label": "Value"
+          }
+        },
+        "context": {
+          "type": "Text",
+          "config": {
+            "label": "Context"
+          }
+        }
+      }
+    }
+  ]
+}

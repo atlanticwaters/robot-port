@@ -1,0 +1,20 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "code_block",
+    "items": [],
+    "primary": {
+      "title": "Zod schema for project documents",
+      "language": "typescript",
+      "code": [
+        {
+          "type": "preformatted",
+          "text": "export const ProjectSchema = z.object({\n  id: z.string(),\n  uid: z.string(),\n  data: z.object({\n    title: z.string(),\n    summary: z.string(),\n  }),\n});",
+          "spans": []
+        }
+      ],
+      "caption": "Runtime validation ensures Prismic data stays reliable."
+    }
+  }
+]

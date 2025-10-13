@@ -1,0 +1,40 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "image_grid",
+    "items": [
+      {
+        "image": {
+          "dimensions": { "width": 1200, "height": 1500 },
+          "alt": "Research artifacts",
+          "copyright": null,
+          "url": "https://images.prismic.io/robot-port/placeholder-research.jpg"
+        },
+        "caption": "Field research synthesis"
+      },
+      {
+        "image": {
+          "dimensions": { "width": 1200, "height": 1500 },
+          "alt": "Workshop session",
+          "copyright": null,
+          "url": "https://images.prismic.io/robot-port/placeholder-workshop.jpg"
+        },
+        "caption": "Journey mapping workshop"
+      },
+      {
+        "image": {
+          "dimensions": { "width": 1200, "height": 1500 },
+          "alt": "Interface detail",
+          "copyright": null,
+          "url": "https://images.prismic.io/robot-port/placeholder-ui.jpg"
+        },
+        "caption": "Component explorations"
+      }
+    ],
+    "primary": {
+      "heading": "Artifacts",
+      "description": "Supporting visuals from the discovery and design process."
+    }
+  }
+]

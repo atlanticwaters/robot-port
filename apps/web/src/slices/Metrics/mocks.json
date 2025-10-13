@@ -1,0 +1,16 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "metrics",
+    "items": [
+      { "label": "Launch velocity", "value": "10 weeks", "context": "From strategy to launch" },
+      { "label": "Conversion lift", "value": "+36%", "context": "Member onboarding" },
+      { "label": "Team alignment", "value": "5 squads", "context": "Design & engineering leads" }
+    ],
+    "primary": {
+      "title": "Impact by the numbers",
+      "caption": "Metrics captured across the engagement."
+    }
+  }
+]
