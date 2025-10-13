@@ -1,24 +1,21 @@
 import * as prismic from "@prismicio/client";
-import { enableAutoPreviews } from "@prismicio/next";
 
-export const repositoryName = process.env.NEXT_PUBLIC_PRISMIC_REPOSITORY_NAME || "robot-port";
+export const repositoryName = import.meta.env.PRISMIC_REPOSITORY_NAME;
 
-export function createClient(config: prismic.ClientConfig = {}) {
-  const client = prismic.createClient(repositoryName, {
-    accessToken: process.env.PRISMIC_ACCESS_TOKEN,
+export function createClient(fetchImpl?: typeof fetch) {
+  if (!repositoryName) {
+    throw new Error("Missing PRISMIC_REPOSITORY_NAME in environment.");
+  }
+  const endpoint = prismic.getRepositoryEndpoint(repositoryName);
+  return prismic.createClient(endpoint, {
+    fetch: fetchImpl ?? fetch,
+    accessToken: import.meta.env.PRISMIC_ACCESS_TOKEN, // optional
     routes: [
-      { type: "project", path: "/projects/:uid" },
+      { type: "project", path: "/work/:uid" },
       { type: "case_study", path: "/case-study/:uid" },
       { type: "post", path: "/blog/:uid" }
     ],
-    ...config,
   });
-
-  enableAutoPreviews({
-    client,
-    previewData: (config as any).previewData,
-    req: (config as any).req,
-  });
-
-  return client;
 }
+
+
