@@ -16,7 +16,7 @@
     "test:e2e": "playwright test",
     "clean": "rimraf .next out .playwright-cache",
     "slices": "pnpm slicemachine",
-    "slicemachine": "slicemachine --port 9999",
+    "slicemachine": "start-slicemachine --port 9999",
     "check": "pnpm lint && pnpm typecheck && pnpm test"
   },
   "dependencies": {
@@ -52,6 +52,7 @@
     "dotenv": "^17.2.3",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.5",
+    "eslint-plugin-prettier": "^5.5.4",
     "postcss": "^8.4.47",
     "rimraf": "^6.0.1",
     "slice-machine-ui": "^2.18.2",

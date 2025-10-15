@@ -24,10 +24,10 @@
           }
         },
         "body": {
-          "type": "RichText",
+          "type": "StructuredText",
           "config": {
             "label": "Body",
-            "multi": "paragraph,strong,em,hyperlink"
+            "single": "paragraph,strong,em,hyperlink"
           }
         }
       },

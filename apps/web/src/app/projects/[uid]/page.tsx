@@ -47,12 +47,12 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   }
 
   const description = asPlainText(project.data.summary as any, 200);
-  const galleryImages = project.data.gallery.filter((item) => item.media?.url);
+  const galleryImages = project.data.gallery?.filter((item) => item.media?.url) ?? [];
   const metrics = project.data.metrics ?? [];
   const serviceList = project.data.services ?? [];
-  const relatedLinks = project.data.links.filter((link) =>
+  const relatedLinks = project.data.links?.filter((link) =>
     resolveLinkURL(link.url as any)
-  );
+  ) ?? [];
 
   return (
     <article className="container space-y-16 py-16 md:py-24">

@@ -18,10 +18,10 @@
           }
         },
         "description": {
-          "type": "RichText",
+          "type": "StructuredText",
           "config": {
             "label": "Description",
-            "multi": "paragraph,strong,em,hyperlink"
+            "single": "paragraph,strong,em,hyperlink"
           }
         },
         "action_label": {

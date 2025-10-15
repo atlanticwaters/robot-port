@@ -66,7 +66,7 @@ export default async function RootLayout({
           {children}
         </main>
         <SiteFooter navigation={navigation} settings={settings} />
-        <PrismicPreview repositoryName={repositoryName} />
+        {repositoryName && <PrismicPreview repositoryName={repositoryName} />}
       </body>
     </html>
   );

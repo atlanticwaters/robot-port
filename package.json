@@ -5,6 +5,8 @@
   "packageManager": "pnpm@9.12.0",
   "scripts": {
     "dev": "pnpm --filter @robot/web dev",
+    "dev:all": "./dev.sh",
+    "slices": "pnpm --filter @robot/web slicemachine",
     "build": "pnpm --filter @robot/web build",
     "lint": "pnpm --filter @robot/web lint",
     "typecheck": "pnpm --filter @robot/web typecheck",

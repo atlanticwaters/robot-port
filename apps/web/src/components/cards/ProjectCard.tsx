@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   const summary = asPlainText(project.data.summary as any, 160);
-  const link = project.data.links.find((entry) => resolveLinkURL(entry.url as any));
+  const link = project.data.links?.find((entry) => resolveLinkURL(entry.url as any));
   const href = link ? resolveLinkURL(link.url as any) : `/projects/${project.uid}`;
   const year = project.data.year ?? null;
 

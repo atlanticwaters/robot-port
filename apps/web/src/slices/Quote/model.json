@@ -12,10 +12,10 @@
       "description": "Centered quote with attribution.",
       "primary": {
         "quote": {
-          "type": "RichText",
+          "type": "StructuredText",
           "config": {
             "label": "Quote",
-            "multi": "paragraph,strong,em"
+            "single": "paragraph,strong,em"
           }
         },
         "attribution": {
