@@ -16,6 +16,19 @@ export default async function HomePage() {
       <p className="mt-4 text-lg text-neutral-600">
         Astro + Prismic wired. Replace this with your Slice-driven homepage.
       </p>
+      <div className="mt-6 rounded-2xl border border-dashed border-neutral-300 p-6">
+        <h2 className="text-xl font-semibold">Design Sprint Concepts</h2>
+        <p className="mt-2 text-sm text-neutral-600">
+          Explore four visual directions for the redesigned homepage and project detail experience.
+        </p>
+        <Link
+          href="/design-sprint"
+          className="mt-4 inline-flex items-center gap-2 rounded-full border border-neutral-800 px-4 py-2 text-sm font-medium text-neutral-900 transition hover:bg-neutral-900 hover:text-white"
+        >
+          View concept hub
+          <span aria-hidden>↗</span>
+        </Link>
+      </div>
 
       <section className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {displayProjects.map((p) => (
