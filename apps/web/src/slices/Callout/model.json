@@ -27,7 +27,7 @@
           "type": "RichText",
           "config": {
             "label": "Body",
-            "multi": "paragraph, strong, em, hyperlink"
+            "multi": "paragraph,strong,em,hyperlink"
           }
         }
       },

@@ -30,7 +30,7 @@
           "type": "RichText",
           "config": {
             "label": "Content",
-            "multi": "paragraph, strong, em, hyperlink, list-item, o-list-item, preformatted, heading2, heading3, heading4",
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item,preformatted,heading2,heading3,heading4",
             "allowTargetBlank": true
           }
         }

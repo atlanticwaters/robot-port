@@ -15,7 +15,7 @@
           "type": "RichText",
           "config": {
             "label": "Quote",
-            "multi": "paragraph, strong, em"
+            "multi": "paragraph,strong,em"
           }
         },
         "attribution": {

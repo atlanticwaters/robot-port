@@ -21,7 +21,7 @@
           "type": "RichText",
           "config": {
             "label": "Description",
-            "multi": "paragraph, strong, em, hyperlink"
+            "multi": "paragraph,strong,em,hyperlink"
           }
         },
         "action_label": {

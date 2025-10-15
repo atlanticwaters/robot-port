@@ -1,8 +1,8 @@
 {
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./apps/web/src/slices"],
-  "repositoryName": "robot-port",
-  "apiEndpoint": "https://robot-port.cdn.prismic.io/api/v2",
+  "repositoryName": "fairway",
+  "apiEndpoint": "https://fairway.cdn.prismic.io/api/v2",
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
   "openTelemetry": {
     "enabled": false

@@ -32,10 +32,10 @@
           }
         },
         "code": {
-          "type": "RichText",
+          "type": "StructuredText",
           "config": {
             "label": "Code",
-            "multi": "preformatted"
+            "single": "preformatted"
           }
         },
         "caption": {

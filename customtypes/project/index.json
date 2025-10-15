@@ -1,0 +1,124 @@
+{
+  "id": "project",
+  "label": "Project",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": "project-slug"
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": "Project title"
+        }
+      },
+      "summary": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Summary",
+          "placeholder": "Brief project description",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,hyperlink"
+        }
+      },
+      "cover": {
+        "type": "Image",
+        "config": {
+          "label": "Cover Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Details": {
+      "services": {
+        "type": "Group",
+        "config": {
+          "label": "Services",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Service",
+                "placeholder": "e.g., Product Design"
+              }
+            }
+          }
+        }
+      },
+      "roles": {
+        "type": "Group",
+        "config": {
+          "label": "Roles",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Role",
+                "placeholder": "e.g., Principal Designer"
+              }
+            }
+          }
+        }
+      },
+      "year": {
+        "type": "Number",
+        "config": {
+          "label": "Year",
+          "placeholder": "2024"
+        }
+      },
+      "client": {
+        "type": "Text",
+        "config": {
+          "label": "Client",
+          "placeholder": "Client name"
+        }
+      },
+      "duration": {
+        "type": "Text",
+        "config": {
+          "label": "Duration",
+          "placeholder": "e.g., 6 months"
+        }
+      },
+      "metrics": {
+        "type": "Group",
+        "config": {
+          "label": "Metrics",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Metric Label",
+                "placeholder": "e.g., User Engagement"
+              }
+            },
+            "value": {
+              "type": "Text",
+              "config": {
+                "label": "Value",
+                "placeholder": "e.g., +40%"
+              }
+            },
+            "context": {
+              "type": "Text",
+              "config": {
+                "label": "Context",
+                "placeholder": "Additional context"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
